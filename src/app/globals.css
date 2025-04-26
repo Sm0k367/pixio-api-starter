@@ -43,121 +43,121 @@
   --radius-xl: calc(var(--radius) + 4px);
 }
 
-/* Modern glassmorphic theme with our color scheme */
+/* Studio Ghibli inspired theme with balanced water, earth, and sky elements */
 :root {
-  /* Increased border radius for a sleeker feel */
-  --radius: 1rem;
+  /* Soft rounded corners like Ghibli's organic shapes */
+  --radius: 1.25rem;
   
-  /* Background with subtle color */
-  --background: oklch(0.98 0.01 270);
-  --foreground: oklch(0.2 0.02 280);
+  /* Soft sky background - pale blue-tinted cream */
+  --background: oklch(0.95 0.02 245);
+  --foreground: oklch(0.25 0.04 70);
   
-  /* Card styling with glass effect */
-  --card: oklch(0.97 0.01 270 / 0.7);
-  --card-foreground: oklch(0.2 0.02 280);
+  /* Card styling with watercolor-like texture */
+  --card: oklch(0.97 0.01 245 / 0.8);
+  --card-foreground: oklch(0.25 0.04 70);
   
   /* Popover styling */
-  --popover: oklch(0.97 0.01 270 / 0.8);
-  --popover-foreground: oklch(0.2 0.02 280);
+  --popover: oklch(0.97 0.01 245 / 0.8);
+  --popover-foreground: oklch(0.25 0.04 70);
   
-  /* Purple primary color from #7068F4 */
-  --primary: oklch(0.65 0.2 280);
-  --primary-foreground: oklch(0.99 0.01 0);
+  /* River blue - #6896B7 (Water element) */
+  --primary: oklch(0.65 0.1 235);
+  --primary-foreground: oklch(0.99 0.01 90);
   
-  /* Pink secondary color from #FF64B4 */
-  --secondary: oklch(0.72 0.22 350);
-  --secondary-foreground: oklch(0.99 0.01 0);
+  /* Forest green - #5E7E3E (Earth element) */
+  --secondary: oklch(0.58 0.15 125);
+  --secondary-foreground: oklch(0.99 0.01 90);
   
   /* Muted tones for subtle elements */
-  --muted: oklch(0.95 0.03 270);
-  --muted-foreground: oklch(0.5 0.05 280);
+  --muted: oklch(0.87 0.03 235);
+  --muted-foreground: oklch(0.5 0.05 80);
   
-  /* Orange accent color from #ffac4c */
-  --accent: oklch(0.8 0.15 60);
-  --accent-foreground: oklch(0.15 0.02 0);
+  /* Golden sunset - #E6B45C (Sky element) */
+  --accent: oklch(0.73 0.13 80);
+  --accent-foreground: oklch(0.2 0.05 60);
   
-  /* Red tone for destructive actions */
-  --destructive: oklch(0.65 0.25 25);
-  --destructive-foreground: oklch(0.99 0.01 0);
+  /* Rust red for destructive actions - #AC3C27 */
+  --destructive: oklch(0.58 0.22 40);
+  --destructive-foreground: oklch(0.99 0.01 90);
   
-  /* Soft borders and inputs */
-  --border: oklch(0.9 0.02 270 / 0.2);
-  --input: oklch(0.9 0.02 270 / 0.2);
-  --ring: oklch(0.65 0.2 280 / 0.5);
+  /* Hand-painted borders and inputs */
+  --border: oklch(0.7 0.05 235 / 0.4);
+  --input: oklch(0.7 0.05 235 / 0.4);
+  --ring: oklch(0.65 0.1 235 / 0.5);
   
-  /* Chart colors */
-  --chart-1: oklch(0.65 0.2 280); /* Purple - #7068F4 */
-  --chart-2: oklch(0.72 0.22 350); /* Pink - #FF64B4 */
-  --chart-3: oklch(0.8 0.15 60);  /* Orange - #ffac4c */
-  --chart-4: oklch(0.7 0.18 320); /* Magenta */
-  --chart-5: oklch(0.6 0.15 240); /* Blue-purple */
+  /* Balanced chart colors from Ghibli palette */
+  --chart-1: oklch(0.65 0.1 235); /* River blue - #6896B7 */
+  --chart-2: oklch(0.58 0.15 125); /* Forest green - #5E7E3E */
+  --chart-3: oklch(0.73 0.13 80);  /* Golden sunset - #E6B45C */
+  --chart-4: oklch(0.6 0.14 60); /* Clay - #B67A54 */
+  --chart-5: oklch(0.55 0.1 330); /* Muted rose - #A3687E */
   
   /* Sidebar styling */
-  --sidebar: oklch(0.97 0.01 270 / 0.7);
-  --sidebar-foreground: oklch(0.2 0.02 280);
-  --sidebar-primary: oklch(0.65 0.2 280);
-  --sidebar-primary-foreground: oklch(0.99 0.01 0);
-  --sidebar-accent: oklch(0.8 0.15 60);
-  --sidebar-accent-foreground: oklch(0.15 0.02 0);
-  --sidebar-border: oklch(0.9 0.02 270 / 0.2);
-  --sidebar-ring: oklch(0.65 0.2 280 / 0.5);
+  --sidebar: oklch(0.97 0.01 245 / 0.8);
+  --sidebar-foreground: oklch(0.25 0.04 70);
+  --sidebar-primary: oklch(0.65 0.1 235);
+  --sidebar-primary-foreground: oklch(0.99 0.01 90);
+  --sidebar-accent: oklch(0.73 0.13 80);
+  --sidebar-accent-foreground: oklch(0.2 0.05 60);
+  --sidebar-border: oklch(0.7 0.05 235 / 0.4);
+  --sidebar-ring: oklch(0.65 0.1 235 / 0.5);
 }
 
-/* Dark mode with futuristic tech feel */
+/* Night scenes inspired by Ghibli's magical evenings */
 .dark {
-  /* Deep backgrounds with subtle transparency */
-  --background: oklch(0.15 0.03 280);
-  --foreground: oklch(0.96 0.02 0);
+  /* Deep night sky background with hint of purple */
+  --background: oklch(0.23 0.03 270);
+  --foreground: oklch(0.9 0.03 80);
   
-  /* Card styling with glassy effect */
-  --card: oklch(0.2 0.04 280 / 0.6);
-  --card-foreground: oklch(0.96 0.02 0);
+  /* Card styling with moonlit effect */
+  --card: oklch(0.28 0.04 270 / 0.7);
+  --card-foreground: oklch(0.9 0.03 80);
   
   /* Popover styling */
-  --popover: oklch(0.2 0.04 280 / 0.7);
-  --popover-foreground: oklch(0.96 0.02 0);
+  --popover: oklch(0.28 0.04 270 / 0.7);
+  --popover-foreground: oklch(0.9 0.03 80);
   
-  /* Brighter purple primary for dark mode - #7068F4 */
-  --primary: oklch(0.7 0.2 280);
-  --primary-foreground: oklch(0.1 0.02 0);
+  /* Night lake blue - #4A6D8B */
+  --primary: oklch(0.52 0.1 235);
+  --primary-foreground: oklch(0.95 0.02 90);
   
-  /* Brighter pink for visibility - #FF64B4 */
-  --secondary: oklch(0.72 0.22 350);
-  --secondary-foreground: oklch(0.1 0.02 0);
+  /* Moonlit forest - #415935 */
+  --secondary: oklch(0.48 0.12 125);
+  --secondary-foreground: oklch(0.95 0.02 90);
   
   /* Dark muted colors */
-  --muted: oklch(0.25 0.04 280);
-  --muted-foreground: oklch(0.7 0.05 280);
+  --muted: oklch(0.35 0.04 270);
+  --muted-foreground: oklch(0.75 0.05 80);
   
-  /* Brighter orange accent for dark mode visibility - #ffac4c */
-  --accent: oklch(0.8 0.15 60);
-  --accent-foreground: oklch(0.1 0.02 0);
+  /* Lantern glow - #E8A145 */
+  --accent: oklch(0.7 0.15 80);
+  --accent-foreground: oklch(0.2 0.03 60);
   
-  /* Brighter destructive for visibility */
-  --destructive: oklch(0.75 0.28 25);
-  --destructive-foreground: oklch(0.1 0.02 0);
+  /* Ember red for destructive actions */
+  --destructive: oklch(0.55 0.2 40);
+  --destructive-foreground: oklch(0.95 0.02 90);
   
-  /* Subtle glowing borders */
-  --border: oklch(0.65 0.15 280 / 0.15);
-  --input: oklch(0.65 0.15 280 / 0.2);
-  --ring: oklch(0.7 0.2 280 / 0.5);
+  /* Hand-painted night borders */
+  --border: oklch(0.45 0.07 270 / 0.35);
+  --input: oklch(0.45 0.07 270 / 0.35);
+  --ring: oklch(0.52 0.1 235 / 0.5);
   
-  /* Dark mode chart colors - brighter for contrast */
-  --chart-1: oklch(0.7 0.22 280); /* Brighter purple */
-  --chart-2: oklch(0.75 0.24 350); /* Brighter pink */
-  --chart-3: oklch(0.83 0.17 60);  /* Brighter orange */
-  --chart-4: oklch(0.75 0.2 320); /* Brighter magenta */
-  --chart-5: oklch(0.65 0.18 240); /* Brighter blue-purple */
+  /* Dark mode chart colors */
+  --chart-1: oklch(0.52 0.1 235); /* Night lake blue */
+  --chart-2: oklch(0.48 0.12 125); /* Moonlit forest */
+  --chart-3: oklch(0.7 0.15 80);  /* Lantern glow */
+  --chart-4: oklch(0.55 0.12 60); /* Shadow clay */
+  --chart-5: oklch(0.5 0.08 330); /* Deep rose */
   
-  /* Dark sidebar with glass effect */
-  --sidebar: oklch(0.2 0.04 280 / 0.6);
-  --sidebar-foreground: oklch(0.96 0.02 0);
-  --sidebar-primary: oklch(0.7 0.2 280);
-  --sidebar-primary-foreground: oklch(0.1 0.02 0);
-  --sidebar-accent: oklch(0.8 0.15 60);
-  --sidebar-accent-foreground: oklch(0.1 0.02 0);
-  --sidebar-border: oklch(0.65 0.15 280 / 0.15);
-  --sidebar-ring: oklch(0.7 0.2 280 / 0.5);
+  /* Dark sidebar with moonlit effect */
+  --sidebar: oklch(0.28 0.04 270 / 0.7);
+  --sidebar-foreground: oklch(0.9 0.03 80);
+  --sidebar-primary: oklch(0.52 0.1 235);
+  --sidebar-primary-foreground: oklch(0.95 0.02 90);
+  --sidebar-accent: oklch(0.7 0.15 80);
+  --sidebar-accent-foreground: oklch(0.2 0.03 60);
+  --sidebar-border: oklch(0.45 0.07 270 / 0.35);
+  --sidebar-ring: oklch(0.52 0.1 235 / 0.5);
 }
 
 @layer base {
@@ -165,12 +165,18 @@
     @apply border-border outline-ring/50;
   }
   body {
-    @apply bg-background text-foreground bg-gradient-to-br from-primary/5 via-background to-secondary/5;
+    @apply bg-background text-foreground;
+    /* Subtle watercolor texture pattern */
+    background-image: 
+      url("data:image/svg+xml,%3Csvg width='200' height='200' viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3CfeBlend mode='soft-light' in='SourceGraphic' result='monoNoise'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E"),
+      linear-gradient(to bottom right, from-primary/5 via-background to-secondary/5);
   }
   
-  /* Modern typography */
+  /* Ghibli-inspired rounded typography */
   h1, h2, h3, h4, h5, h6 {
-    @apply font-medium;
+    @apply font-medium tracking-wide;
+    /* Hand-drawn text effect */
+    text-shadow: 0 0 1px rgba(0,0,0,0.1), 1px 1px 0 rgba(255,255,255,0.3);
   }
   
   h1 {
@@ -186,34 +192,50 @@
   }
 }
 
-/* Glassmorphic and futuristic design utility classes */
+/* Anime & Ghibli-inspired design utility classes */
 @layer components {
   .glass-card {
-    @apply rounded-xl bg-white/20 dark:bg-black/20 backdrop-blur-md border border-white/20 dark:border-white/10 shadow-lg hover:shadow-xl transition-shadow;
+    @apply rounded-xl bg-white/20 dark:bg-black/20 backdrop-blur-md shadow-lg hover:shadow-xl transition-shadow;
+    border: 3px solid rgba(255,255,255,0.4);
+    box-shadow: 2px 3px 0 rgba(0,0,0,0.1), inset 1px 1px 0 rgba(255,255,255,0.4);
+    background-image: url("data:image/svg+xml,%3Csvg width='200' height='200' viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3CfeBlend mode='soft-light' in='SourceGraphic' result='monoNoise'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
   }
   
   .glass-input {
-    @apply bg-white/10 dark:bg-white/5 backdrop-blur-sm border border-white/20 dark:border-white/10;
+    @apply bg-white/10 dark:bg-white/5 backdrop-blur-sm;
+    border: 3px solid rgba(255,255,255,0.4);
   }
   
   .glass-button {
-    @apply backdrop-blur-sm hover:shadow-lg transition-all shadow-md;
+    @apply backdrop-blur-sm hover:shadow-lg transition-all;
+    box-shadow: 2px 3px 0 rgba(0,0,0,0.15);
+    border: 3px solid rgba(255,255,255,0.4);
   }
   
   .gradient-purple-pink {
     @apply bg-gradient-to-r from-primary to-secondary text-primary-foreground;
+    border: 3px solid;
+    border-color: rgba(255,255,255,0.6);
+    box-shadow: 2px 3px 0 rgba(0,0,0,0.15);
   }
   
   .gradient-pink-orange {
     @apply bg-gradient-to-r from-secondary to-accent text-secondary-foreground;
+    border: 3px solid;
+    border-color: rgba(255,255,255,0.6);
+    box-shadow: 2px 3px 0 rgba(0,0,0,0.15);
   }
   
   .gradient-purple-orange {
     @apply bg-gradient-to-r from-primary to-accent text-primary-foreground;
+    border: 3px solid;
+    border-color: rgba(255,255,255,0.6);
+    box-shadow: 2px 3px 0 rgba(0,0,0,0.15);
   }
   
   .gradient-text {
     @apply bg-clip-text text-transparent bg-gradient-to-r from-primary via-secondary to-accent;
+    text-shadow: 0 0 2px rgba(0,0,0,0.1);
   }
   
   .gradient-border {
@@ -223,18 +245,26 @@
       linear-gradient(#fff 0 0);
     -webkit-mask-composite: xor;
     mask-composite: exclude;
+    border-width: 3px;
   }
   
   .glass-bg {
     @apply bg-gradient-to-br from-primary/5 via-background to-secondary/5;
+    background-image: 
+      url("data:image/svg+xml,%3Csvg width='200' height='200' viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3CfeBlend mode='soft-light' in='SourceGraphic' result='monoNoise'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E"),
+      linear-gradient(to bottom right, var(--tw-gradient-stops));
   }
   
   .glass-container {
     @apply container mx-auto px-4 sm:px-6 lg:px-8 py-8;
+    border: 3px solid rgba(255,255,255,0.4);
+    box-shadow: 2px 3px 0 rgba(0,0,0,0.15);
   }
   
   .futuristic-border {
-    @apply border border-white/20 dark:border-white/10 rounded-xl overflow-hidden;
+    @apply rounded-xl overflow-hidden;
+    border: 3px solid rgba(255,255,255,0.4);
+    box-shadow: 2px 3px 0 rgba(0,0,0,0.15);
   }
   
   .glow {
@@ -243,25 +273,27 @@
   
   .glow::after {
     @apply content-[''] absolute -inset-0.5 rounded-[inherit] z-[-1] opacity-75 pointer-events-none blur-md;
-    background: linear-gradient(35deg, #7068F4, transparent, #FF64B4, transparent, #ffac4c);
+    background: linear-gradient(35deg, #6896B7, transparent, #5E7E3E, transparent, #E6B45C);
     animation: shimmer 10s ease-in-out infinite;
     background-size: 200% 200%;
   }
   
   .glow-purple::after {
-    background: linear-gradient(35deg, #7068F4, rgba(112, 104, 244, 0.5), transparent);
+    background: linear-gradient(35deg, #6896B7, rgba(104, 150, 183, 0.5), transparent);
   }
   
   .glow-pink::after {
-    background: linear-gradient(35deg, #FF64B4, rgba(255, 100, 180, 0.5), transparent);
+    background: linear-gradient(35deg, #5E7E3E, rgba(94, 126, 62, 0.5), transparent);
   }
   
   .glow-orange::after {
-    background: linear-gradient(35deg, #ffac4c, rgba(255, 172, 76, 0.5), transparent);
+    background: linear-gradient(35deg, #E6B45C, rgba(230, 180, 92, 0.5), transparent);
   }
   
   .interactive-card {
-    @apply transition-all duration-300 hover:translate-y-[-5px] hover:shadow-lg;
+    @apply transition-all duration-300 hover:translate-y-[-5px] hover:shadow-xl;
+    border: 3px solid rgba(255,255,255,0.4);
+    box-shadow: 2px 3px 0 rgba(0,0,0,0.15);
   }
   
   .shimmer {
@@ -272,7 +304,7 @@
     @apply content-[''] absolute inset-0 z-10;
     background: linear-gradient(90deg, 
       transparent, 
-      rgba(255, 255, 255, 0.1), 
+      rgba(255, 255, 255, 0.2), 
       transparent
     );
     background-size: 200% 100%;
