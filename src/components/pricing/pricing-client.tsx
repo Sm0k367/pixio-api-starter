@@ -1,4 +1,3 @@
-// src/components/pricing/pricing-client.tsx
 'use client';
 
 import { useState } from 'react';
@@ -128,7 +127,7 @@ export function PricingClient({
                 <div className="mb-4">
                   {price.amount ? (
                     <div>
-                      <span className="text-3xl font-bold">{formatPrice(price.amount)}</span>
+                      <span className="text-3xl font-bold">{formatPrice(0.99)}</span>
                       <span className="text-muted-foreground ml-1">/{billingInterval === 'monthly' ? 'month' : 'year'}</span>
                       
                       {billingInterval === 'yearly' && tier.pricing.yearly.discount && (
