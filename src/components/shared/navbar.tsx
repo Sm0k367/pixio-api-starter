@@ -68,10 +68,8 @@ export function Navbar() {
         : "bg-transparent"
     )}>
       <div className="container flex items-center justify-between mx-auto">
-        <Link href="/" className="flex items-center space-x-2">
-          <span className="text-xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-primary via-secondary to-accent">
-            Pixio<span className="font-bold">API</span>
-          </span>
+        <Link href="/" className="text-lg font-semibold bg-clip-text text-transparent bg-gradient-to-r from-primary via-secondary to-accent">
+          Epic<span className="font-bold">Tech</span>AI
         </Link>
         
         <div className="flex items-center gap-4">

@@ -1,6 +1,27 @@
 {
-  "name": "basic-saas-starter",
-  "version": "0.1.0",
+  "name": "epic-tech-ai",
+  "version": "1.0.0",
+  "description": "Epic Tech AI - Advanced AI Generation SaaS Platform with Pixio API, Supabase, and Stripe Integration",
+  "author": "Epic Tech AI <epictechai@gmail.com>",
+  "homepage": "https://github.com/epictechai/epic-tech-ai",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/epictechai/epic-tech-ai.git"
+  },
+  "bugs": {
+    "url": "https://github.com/epictechai/epic-tech-ai/issues"
+  },
+  "keywords": [
+    "ai",
+    "saas",
+    "next.js",
+    "supabase",
+    "stripe",
+    "pixio",
+    "image-generation",
+    "video-generation",
+    "comfyui"
+  ],
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
